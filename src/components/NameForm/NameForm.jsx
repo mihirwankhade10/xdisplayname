@@ -70,21 +70,9 @@ function NameForm() {
 
       {/* Full Name Display */}
       {submitted && (
-        <>
-          <hr className={styles.divider} />
-          <div className={styles.result} id="result-display">
-            <p className={styles.resultLabel}>Full Name</p>
-            <p className={styles.resultName}>
-              {firstName} {lastName}
-            </p>
-            <div className={styles.resultBadge}>
-              <svg viewBox="0 0 24 24">
-                <polyline points="20 6 9 17 4 12" />
-              </svg>
-              Submitted successfully
-            </div>
-          </div>
-        </>
+        <div className={styles.result} id="result-display">
+          Full Name: {firstName} {lastName}
+        </div>
       )}
     </div>
   );

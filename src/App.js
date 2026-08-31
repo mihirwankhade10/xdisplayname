@@ -13,7 +13,7 @@ function App() {
             <circle cx="12" cy="7" r="4" />
           </svg>
         </div>
-        <h1 className="app__title">XDisplayName</h1>
+        <h1 className="app__title">Full Name Display</h1>
         <p className="app__subtitle">
           Enter your name below and see it come to life
         </p>
